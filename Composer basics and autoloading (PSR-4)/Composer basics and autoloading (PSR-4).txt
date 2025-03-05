@@ -1,0 +1,13 @@
+What is Composer?
+Composer is a tool for managing PHP packages (external libraries) and also helps load classes automatically using autoloading.
+
+Think of Composer as an app store for PHP packages. Instead of manually downloading and including files, Composer does it for you.
+
+What is Autoloading?
+Autoloading means PHP automatically loads classes when needed, so you don’t have to manually include (require) files. As previously we do in namespaces.
+
+What is PSR-4 Autoloading?
+PSR-4 is a standard that defines how PHP classes and namespaces should be organized so that Composer can automatically load them.
+
+🔹 PSR-4 Rule:
+A namespace (MyApp\Models) maps to a folder structure (src/Models).
