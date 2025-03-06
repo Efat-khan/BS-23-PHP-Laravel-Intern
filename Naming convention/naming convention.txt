@@ -1,0 +1,63 @@
+Basic Naming Conventions
+1.Variables:
+Lowercase with underscores (snake_case) for variable names.
+Example:
+$user_name = "John Doe";  
+$total_amount = 100.5;
+
+2. Constants:
+
+Constants should be written in uppercase with underscores separating words.
+Example:
+
+define('MAX_USERS', 100);  
+const BASE_URL = 'https://example.com';
+
+3.Functions/Methods:
+
+Use verbs for function names, and camelCase is commonly used.
+Example:
+function calculateTotal($amount) {
+    return $amount * 1.15;
+}
+
+4.Classes:
+
+Use PascalCase for class names, starting with an uppercase letter.
+Example:
+
+class UserAccount {
+    // Class code
+}
+5.Array Naming:
+
+Arrays should be pluralized if they represent a collection.
+Example:
+
+$userNames = ['Alice', 'Bob', 'Charlie'];
+
+6.File Names:
+
+Use snake_case for file names, and they should match the class or function if possible.
+Example:
+php
+// For class UserAccount
+user_account.php
+
+7.Interface Names:
+Interfaces should start with an "I" followed by the PascalCase name.
+Example:
+php
+interface IUserAccount {
+    public function calculateBalance();
+}
+8.Trait Names:
+
+Traits should follow the same naming convention as classes (PascalCase), but typically should describe behavior.
+Example:
+trait Loggable {
+    public function log() {
+        // Logging code
+    }
+}
+9. 
